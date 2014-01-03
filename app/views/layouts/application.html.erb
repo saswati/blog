@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+    <head xmlns="http://www.w3.org/1999/html">
+      <title><%= Blog %></title>
+      <meta charset=”utf-8”>
+      <%= stylesheet_link_tag    "application", :media => "all" %>
+      <%= javascript_include_tag "application" %>
+      <%= csrf_meta_tags %>>
+    </head>
+
+    <body>
+
+      <div class="wysiwyg_viewer_skins_screenwidthcontainer_DefaultScreensc2-c-bg" >
+          <img class="skins_core_ImageNewSkin-image" skinpart="image" alt="" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/c50.50.621.621/s160x160/529832_4580295147325_489246137_n.jpg" style="margin-top: 64px; margin-left: 110PX; width: 130px; height: 137px;">
+          </img>
+          <div class="socialButtonsContent">
+            <div class="facebookWrapper">
+              <div class="fb-like fb_edge_widget_with_comment fb_iframe_widget" data-show-faces="true" data-layout="button_count" data-send="false" fb-xfbml-state="rendered">
+                <span style="height: 21px; width: 73px;"></span>
+                <iframe id="f2c8d1922f1d22c" class="fb_ltr" scrolling="no" name="f27a65d6cd4ce26" style="border: medium none; overflow: hidden; height: 21px; width: 73px; left: 0px;" title="Like this content on Facebook." src="http://www.facebook.com/plugins/like.php?api_key=&channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D27%23cb%3Df51e275160f4f6%26domain%3Dwww.wix.com%26origin%3Dhttp%253A%252F%252Fwww.wix.com%252Ff90cc0cdd7f4bc%26relation%3Dparent.parent&colorscheme=light&extended_social_context=false&href=http%3A%2F%2Fwww.wix.com%2Fwebsite-template%2Fview%2Fhtml%2F756%3ForiginUrl%3Dhttp%3A%2F%2Fwww.wix.com%2Feteamhtml%2F400%23!Home%2FmainPage&layout=button_count&locale=en_US&node_type=link&sdk=joey&send=false&show_faces=false&width=90">
+                  <!DOCTYPE html>
+                  <html id="facebook" class="" lang="en">
+                    <head>
+                    <body class="plugin gecko Locale_en_US">
+                        <div class="_li">
+                            <div class="pluginSkinLight pluginFontHelvetica">
+                                <div>
+                                    <table id="u_0_0" class="uiGrid _51mz pluginConnectButtonLayoutRoot" cellspacing="0" cellpadding="0">
+                                        <tbody>
+                                            <tr class="_51mx">
+                                            <td class="_51m- hCent">
+                                            <div>
+                                                <form id="u_0_1" onsubmit="return window.Event && Event.__inlineSubmit && Event.__inlineSubmit(this,event)" action="/plugins/like/disconnect" method="post" ajaxify="/plugins/like/disconnect" rel="async" class="async_saving">
+                                                      <input type="hidden" autocomplete="off" value="AQAAmi60" name="fb_dtsg">
+                                                      <input type="hidden" value="http://www.wix.com/website-template/view/html/756?originUrl=http%3A%2F%2Fwww.wix.com%2Feteamhtml%2F400#!Home/mainPage" name="href" autocomplete="off">
+                                                      <input type="hidden" value="like" name="action" autocomplete="off">
+                                                      <input type="hidden" name="nobootload" autocomplete="off">
+                                                      <input type="hidden" value="http://www.wix.com/website-template/view/html/756?originUrl=http%3A%2F%2Fwww.wix.com%2Feteamhtml%2F400" name="iframe_referer" autocomplete="off">
+                                                      <input type="hidden" name="ref" autocomplete="off">
+                                                      <input type="hidden" name="xfbml" autocomplete="off">
+
+                                                       <div class="pluginConnectButton">
+                                                            <div class="pluginButton pluginButtonSmall pluginButtonInline pluginConnectButtonDisconnected hidden_elem" title="Like">
+                                                                <div>
+                                                                    <button type="submit">
+                                                                        <i class="pluginButtonIcon img sp_like sx_like_fav"></i>
+                                                                            <span class="accessible_elem">Like</span>
+                                                                    </button>
+                                                                        <span aria-hidden="true">Like</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="pluginButton pluginButtonSmall pluginButtonPressed pluginButtonInline pluginButtonX pluginConnectButtonConnected" title=""></div>
+                                                       </div>
+                                                </form>
+                                            </div>
+                                            </td>
+                                            <td class="_51m-"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div id="u_0_6" class="_56zz _56z- _56-2 hidden_elem">
+                                    </div>
+                        </div>
+                            </div>
+                            <div id="js_0" class="uiContextualLayerPositioner uiLayer hidden_elem" style="width: 384px; left: 66px; top: 73px;" data-ownerid="u_0_3"></div>
+                        </div>
+                    </body>
+                  </head>
+                  </html>
+                </iframe>
+
+              </div>
+            </div>
+          </div>
+          <!-- end of .socialButtonsContent -->
+
+
+
+      <div class="navbar navbar-fixed-top" >
+        <div class="navbar-inner">
+          <div class="container">
+            <div class="brand" ><%= link_to "Tanmay's Blog", root_path%></div>
+            <div id="main-menu" class="nav-collapse collapse">
+
+              <ul id="main-menu-left" class="nav">
+                <li class="dropdown" id="preview-menu">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Download <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a target="_blank" href="bootstrap.min.css">bootstrap.min.css</a></li>
+                    <li><a target="_blank" href="bootstrap.css">bootstrap.css</a></li>
+                    <li class="divider"></li>
+                    <li><a target="_blank" href="variables.less">variables.less</a></li>
+                    <li><a target="_blank" href="bootswatch.less">bootswatch.less</a></li>
+                  </ul>
+                </li>
+              </ul>
+
+
+              <ul class="nav pull-right">
+                <% if user_signed_in? %>
+                    <li ><%= link_to "Article", new_article_path %></li>
+                    <li><%= link_to "Listing Articles", articles_path %></li>
+                    <li><%= link_to "Profile", new_profile_path %></li>
+                    <li><%= link_to "Seetings",edit_user_registration_path %></li>
+                    <li><%= link_to "Sign out", destroy_user_session_path, :method => :delete %></li>
+                <% else %>
+                    <li><%= link_to "Sign in",'/users/sign_in' %></li>
+                    <li ><%= link_to "Home", '/home',remote: true %></li>
+                    <li><%= link_to "About", '/about',remote: true %></li>
+
+              <% end %>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    <% if notice%>
+        <div class="alert alert-success"><%= notice %><a class="close"></a></div>
+    <% end %>
+    <% if alert %>
+        <div class="alert alert-error"><%= alert %><a class="close"></a></div>
+    <% end %>
+
+      <%#<%= image_tag @user.avatars.url(:medium) %>
+
+    <%#div id="main_content" class="hero-unit " comp="wysiwyg.viewer.components.PagesContainer" scale="1" style="visibility: visible; width: 100%; height: 100%; min-height: 1178px; top: 202px; position: absolute;" styleid="pc1" skin="wysiwyg.viewer.skins.screenwidthcontainer.TransparentScreen" class="wysiwyg_viewer_skins_screenwidthcontainer_TransparentScreenpc1"><div skinpart="screenWidthBackground" class="wysiwyg_viewer_skins_screenwidthcontainer_TransparentScreenpc1-screenWidthBackground" style="position: absolute; width: 1347px; height: 1178px; left: -184px;"></div><div skinpart="centeredContent" class="wysiwyg_viewer_skins_screenwidthcontainer_TransparentScreenpc1-centeredContent" style="width: 980px; margin-left: 0px;"><div skinpart="bg" class="wysiwyg_viewer_skins_screenwidthcontainer_TransparentScreenpc1-bg"></div><div skinpart="inlineContent" class="wysiwyg_viewer_skins_screenwidthcontainer_TransparentScreenpc1-inlineContent"><div id="SITE_PAGES" comp="wysiwyg.viewer.components.PageGroup" skin="wysiwyg.viewer.skins.PageGroupSkin" propertyquery="#SITE_PAGES" width="980" height="1178" x="0" y="0" scale="1" style="visibility: visible; width: 980px; min-height: 1178px; position: absolute;" styleid="" class="wysiwyg_viewer_skins_PageGroupSkin"><div skinpart="inlineContent" class="wysiwyg_viewer_skins_PageGroupSkin-inlineContent"><div id="c1kcz" comp="mobile.core.components.Page" skin="skins.core.InlineSkin" stub="true" dataquery="#c1kcz" class="sitePage hidden" style="visibility: visible; min-height: 500px; position: absolute; top: 0px; left: 0px;"></div><div id="mainPage" comp="mobile.core.components.Page" dataquery="#mainPage" width="980" height="1178" x="0" y="0" scale="1" class="sitePage wysiwyg_viewer_skins_page_BorderPageSkinp1" style="visibility: visible; min-height: 1178px; position: absolute; top: 0px; left: 0px; width: 980px; opacity: 1;" styleid="p1" skin="wysiwyg.viewer.skins.page.BorderPageSkin"><div skinpart="bg" class="wysiwyg_viewer_skins_page_BorderPageSkinp1-bg"></div><div skinpart="inlineContent" class="wysiwyg_viewer_skins_page_BorderPageSkinp1-inlineContent"><div id="Cntnr4" comp="mobile.core.components.Container" width="980" height="515" x="0" y="30" scale="1" style="visibility: visible; top: 30px; width: 980px; min-height: 515px; position: absolute;" styleid="c1" skin="wysiwyg.viewer.skins.area.LiftedShadowArea" class="wysiwyg_viewer_skins_area_LiftedShadowAreac1"><div class="wysiwyg_viewer_skins_area_LiftedShadowAreac1-c-shd wysiwyg_viewer_skins_area_LiftedShadowAreac1-c-left"></div><div class="wysiwyg_viewer_skins_area_LiftedShadowAreac1-c-shd wysiwyg_viewer_skins_area_LiftedShadowAreac1-c-right"></div><div skinpart="bg" class="wysiwyg_viewer_skins_area_LiftedShadowAreac1-bg"></div><div skinpart="inlineContent" class="wysiwyg_viewer_skins_area_LiftedShadowAreac1-inlineContent"><div id="WPht1" comp="wysiwyg.viewer.components.WPhoto" dataquery="#c1eub" propertyquery="#WPht1" width="304" height="410" x="60" y="51" scale="1" style="visibility: visible; left: 60px; top: 51px; width: 304px; min-height: 410px; position: absolute;" styleid="wp1" skin="wysiwyg.viewer.skins.photo.RoundPhoto" class="wysiwyg_viewer_skins_photo_RoundPhotowp1" title=""><a skinpart="link" class="wysiwyg_viewer_skins_photo_RoundPhotowp1-link" style="cursor: default;"><div skin="skins.core.ImageNewSkin" skinpart="img" class="wysiwyg_viewer_skins_photo_RoundPhotowp1-img skins_core_ImageNewSkin" comp="core.components.image.ImageNew" id="mgNw3-15t8" style="visibility: visible; width: 302px; height: 408px;" styleid="" dataquery="#c1eub"><img skinpart="image" class="skins_core_ImageNewSkin-image" alt="" src="http://static.wixstatic.com/media/41d000_d4c4039d47e8b4e28b251f90df5858b7.jpg_srz_302_408_75_22_0.50_1.20_0.00_jpg_srz" style="margin-top: 0px; margin-left: 0px; width: 302px; height: 408px;"></div></a></div><div id="WRchTxt4" comp="wysiwyg.viewer.components.WRichText" dataquery="#5rr" width="520" height="275" x="401" y="69" scale="1" style="visibility: visible; left: 401px; top: 69px; width: 520px; min-height: 275px; position: absolute;" styleid="txtNew" skin="wysiwyg.viewer.skins.WRichTextNewSkin" class="wysiwyg_viewer_skins_WRichTextNewSkintxtNew"><h3 class="font_3" style="line-height: 1.1em;"><span style="line-height: 1.1em;">WHITEHORN</span></h3> >%>
+
+     <div id="main_content" class="hero-unit" >
+           <div id="WRchTxt4" class="wysiwyg_viewer_skins_WRichTextNewSkintxtNew" comp="wysiwyg.viewer.components.WRichText" dataquery="#5rr" width="520" height="275" x="401" y="69" scale="1" style="visibility: visible; left: 290px; top: 269px; width: 1100px; right: 200px; min-height: 275px; position: absolute;background-color: #f5f5f5;" styleid="txtNew" skin="wysiwyg.viewer.skins.WRichTextNewSkin">
+                <%= yield %>
+           </div>
+     </div>
+
+    <footer>
+      <div class="navbar navbar-fixed-bottom" >
+        <div class="navbar-inner">
+          <div class="container">
+            <ul id="main-menu-right" class="nav">
+              <li><%= link_to "News", '/news',remote: true %></li>
+              <li><%= link_to "Books", '/books',remote: true %></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+      </div>
+    </body>
+
+</html>

@@ -1,0 +1,95 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require extjs-rails
+ *= require_tree .
+ */
+
+
+// Then bootstrap itself
+
+
+
+
+.pluginButton button {
+  background: none repeat scroll 0 0 transparent;
+  border: 0 none;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  margin: -1px;
+  padding: 0;
+}
+
+
+.socialButtonsContent {
+  border-left: 1px solid #BBBBBB;
+  padding: -1px 0px 0px 0px;
+  position: relative;
+}
+
+.hero_unit{
+  width: 400px !important;
+  margin: 60px !important;
+  padding-left: 100px !important;
+
+
+
+}
+
+.wysiwyg_viewer_skins_screenwidthcontainer_DefaultScreensc2-c-bg {
+  background-image: url("http://static.wixstatic.com/media/41d000_96acfada47c93c7943cfcc7d81a3c49b.jpg_srz_1920_1280_75_22_0.50_1.20_0.00_jpg_srz"); background-size: cover; background-position: center center; background-repeat: no-repeat; background-color: rgb(45, 45, 44); height: 294px;
+  border-top: 0 solid #000000;
+  bottom: -41px;
+  left: 0;
+  position: absolute;
+  right: 0px;
+  top: -15px;
+  height: 224px;
+}
+
+.skins_core_ImageNewSkin-image {
+  box-shadow: 0 0 0 #000000;
+  position: static;
+}
+  .devise_error{
+  text-align: left;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+.footer ul.sponsors li span.sponsor_text {
+  color: #745252;
+  font-family: Georgia,serif;
+  font-size: 1.2em;
+  font-style: italic;
+}
+.footer ul.sponsors li a img {
+  display: block;
+  margin: 0 auto;
+}
+
+ul.horizontal {
+  list-style: none outside none;
+  background: url(bgimage.jpg);
+}
+
+
+.wysiwyg_viewer_skins_area_LiftedShadowAreac1-inlineContent {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+}

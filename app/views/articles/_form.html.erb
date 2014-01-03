@@ -1,0 +1,17 @@
+
+
+<%= form_for @article  do |f| %>
+
+  <div class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </div>
+
+    <%= f.cktext_area :content, :class => "someclass" %>
+        <div class="action">
+          <%= f.submit %>
+        </div>
+
+
+
+<% end %>

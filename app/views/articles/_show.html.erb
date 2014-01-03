@@ -1,0 +1,19 @@
+
+<%= link_to 'Index', articles_path(@articles) %>
+<h1>Article</h1>
+<p>
+  <b>Title:</b>
+  <%= @article.title %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%=raw RedCloth.new(@article.content).to_html %>
+
+</p>
+
+
+<%= render 'comments/comments'  %>
+
+<%= link_to 'Edit', edit_article_path(@article) %> |
+<%= link_to 'Back', articles_path %>

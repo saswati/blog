@@ -1,0 +1,28 @@
+
+  <div class="">
+    <table class="front" summary="For Signed in Users" >
+      <tr>
+        <td class = "main" >
+          <% if user_signed_in? %>
+            <%#= render  "articles/show"%>
+            <%#<td class="sidebar round">
+                     <%= render 'articles/index' %>
+            <%#<%= render 'shared/stats' %>
+            <%#<%= image_tag avatars.url(:medium) %>
+            <%#</td> %>
+            <% else %>
+              
+             <h1 class = "micropost" >Hello</h1>
+              <a href="/users/sign_up" class="btn btn-large btn-success">Sign up Now</a>
+             <%#= render  "articles/show"%>
+             <%# <%= render 'helper/comments_helper' %>
+             <%#<%= render "comments/form" %>
+             <%#<%= render 'shared/feed' %>
+           <% end %>
+
+        </td>
+
+      </tr>
+    </table>
+
+  </div>

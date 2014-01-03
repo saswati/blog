@@ -1,0 +1,13 @@
+module ArticlesHelper
+  html = <<-HTML
+  <%= form_for @article do |form| %>
+  ...
+  <%= form.cktext_area :notes, :class => "someclass", :ckeditor => {:language => "uk"} %>
+  ...
+  <%= form.cktext_area :content, :value => "Default value", :id => "sometext" %>
+  ...
+  <%= cktext_area :page, :info, :cols => 40, :ckeditor => {:uiColor => "#AADC6E", :toolbar => "mini"} %>
+  ...
+  <% end -%>
+  HTML
+end

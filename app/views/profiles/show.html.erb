@@ -1,0 +1,18 @@
+<%= link_to 'Edit Profile', edit_profile_path(@profile) %>
+<table class="profile" summary="Profile information" >
+  <%= flash[:success]= "Welcome to Your Profile" %>
+  <tr>
+    <td class="main">
+
+      <h1>
+        <%= @profile.name %>
+        <%= image_tag @profile.avatar.url(:medium) %>
+      </h1>
+
+  </td>
+  </tr>
+</table>
+
+
+
+

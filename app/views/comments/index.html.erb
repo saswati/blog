@@ -1,0 +1,6 @@
+<% @comments.each do |comment| %>
+    <tr>
+      <td><%= comment.body %></td>
+      <td><%= link_to 'Show', comment %></td>
+    </tr>
+<% end %>
